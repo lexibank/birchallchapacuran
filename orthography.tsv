@@ -1,0 +1,42 @@
+Grapheme	FREQUENCY	IPA	UNICODE
+a	863	a	U+0061
+i	750	i	U+0069
+k	363	k	U+006b
+t	362	t	U+0074
+m	305	m	U+006d
+n	302	n	U+006e
+o	241	o	U+006f
+w	240	w	U+0077
+p	237	p	U+0070
+e	216	e	U+0065
+r	205	r	U+0072
+u	179	u	U+0075
+ʔ	167	ʔ	U+0294
+j	118	j	U+006a
+s	106	s	U+0073
+tʃ	103	tʃ	U+0074 U+0283
+h	39	h	U+0068
+ʃ	36	ʃ	U+0283
+y	32	y	U+0079
+_	31	_	U+005f
+ɲ	13	ɲ	U+0272
+f	12	f	U+0066
+d	11	d	U+0064
+z	11	z	U+007a
+ʒ̟	9	ʒ̟	U+0292 U+031f
+b	9	b	U+0062
+v	8	v	U+0076
+hw	5	hw	U+0068 U+0077
+pw	4	pw	U+0070 U+0077
+kw	4	kw	U+006b U+0077
+g	4	g	U+0067
+l	3	l	U+006c
+ø	2	ø	U+00f8
+ë	2	ë	U+00eb
+aa	1	aa	U+0061 U+0061
+ts	1	ts	U+0074 U+0073
+oo	1	oo	U+006f U+006f
+B	1	b	U+0042
+js	1	j s	U+006a U+0073
+ã	1	ã	U+00e3
+ks	1	k s	U+006b U+0073
