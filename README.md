@@ -33,5 +33,5 @@ Available online at http://pubman.mpdl.mpg.de/pubman/item/escidoc:2332314:2/comp
 - **Cognacy:** 939 cognates in 187 cognate sets
 - **Invalid lexemes:** 0
 - **Tokens:** 5,482
-- **Segments:** 39 (1 LingPy errors, 5 CLPA errors, 118 CLPA modified)
+- **Segments:** 39 (1 LingPy errors, 5 CLPA errors, 4 CLPA modified)
 - **Inventory size (avg):** 22.20

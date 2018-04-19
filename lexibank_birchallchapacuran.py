@@ -23,13 +23,13 @@ class Dataset(BaseDataset):
             for lang in self.languages:
                 ds.add_language(
                     ID=lang['NAME'],
-                    glottocode=lang['GLOTTOCODE'],
-                    iso=lang['ISO'],
-                    name=lang['NAME'])
+                    Glottocode=lang['GLOTTOCODE'],
+                    ISO639P3code=lang['ISO'],
+                    Name=lang['NAME'])
             for r in self.read_csv('chapacuran.Sheet1.csv'):
                 csid = concept_map.get(r['Meaning'], None)
                 assert csid, 'Missing concept %s' % r['Meaning']
-                ds.add_concept(ID=csid, gloss=r['Meaning'], conceptset=csid)
+                ds.add_concept(ID=csid, Name=r['Meaning'], Concepticon_ID=csid)
 
                 for lang in self.languages:
                     if lang['NAME'] in r:  # ignore missing/empty entries
