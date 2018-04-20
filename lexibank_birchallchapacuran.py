@@ -16,7 +16,9 @@ class Dataset(BaseDataset):
 
     def cmd_install(self, **kw):
         concept_map = {
-            x.english: x.concepticon_id for x in self.conceptlist.concepts.values()}
+            x.english: (x.concepticon_id, x.concepticon_gloss)
+            for x in self.conceptlist.concepts.values()
+        }
         
         tokenizer = self.get_tokenizer()
         
@@ -29,10 +31,8 @@ class Dataset(BaseDataset):
                     ISO639P3code=lang['ISO'],
                     Name=lang['NAME'])
             for r in self.read_csv('chapacuran.Sheet1.csv'):
-                csid = concept_map.get(r['Meaning'], None)
-                assert csid, 'Missing concept %s' % r['Meaning']
-                ds.add_concept(ID=csid, Name=r['Meaning'], Concepticon_ID=csid)
-                
+                csid, csgloss = concept_map[r['Meaning']]
+                ds.add_concept(ID=csid, Name=r['Meaning'], Concepticon_ID=csid, Concepticon_Gloss=csgloss)
                 for lang in self.languages:
                     if lang['NAME'] in r:  # ignore missing/empty entries
                         cogid = '%s-%s' % (slug(r['Meaning']), r['Set'])
