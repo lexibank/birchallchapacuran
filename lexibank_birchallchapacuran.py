@@ -17,7 +17,9 @@ class Dataset(BaseDataset):
     def cmd_install(self, **kw):
         concept_map = {
             x.english: x.concepticon_id for x in self.conceptlist.concepts.values()}
-
+        
+        tokenizer = self.get_tokenizer()
+        
         with self.cldf as ds:
             ds.add_sources(*self.raw.read_bib())
             for lang in self.languages:
@@ -30,7 +32,7 @@ class Dataset(BaseDataset):
                 csid = concept_map.get(r['Meaning'], None)
                 assert csid, 'Missing concept %s' % r['Meaning']
                 ds.add_concept(ID=csid, Name=r['Meaning'], Concepticon_ID=csid)
-
+                
                 for lang in self.languages:
                     if lang['NAME'] in r:  # ignore missing/empty entries
                         cogid = '%s-%s' % (slug(r['Meaning']), r['Set'])
@@ -38,8 +40,9 @@ class Dataset(BaseDataset):
                             Language_ID=lang['NAME'],
                             Parameter_ID=csid,
                             Value=r[lang['NAME']],
-                            Cognacy=cogid,
                             Source=lang['SOURCES'].split(';'),
+                            Segments=tokenizer('IPA', r[lang['NAME']]),
+                            Cognacy=cogid
                         ):
                             ds.add_cognate(lexeme=row, Cognateset_ID=cogid)
 
