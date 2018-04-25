@@ -20,13 +20,11 @@ class Dataset(BaseDataset):
             for x in self.conceptlist.concepts.values()
         }
         
-        tokenizer = self.get_tokenizer()
-        
         with self.cldf as ds:
             ds.add_sources(*self.raw.read_bib())
             for lang in self.languages:
                 ds.add_language(
-                    ID=lang['NAME'],
+                    ID=slug(lang['NAME']),
                     Glottocode=lang['GLOTTOCODE'],
                     ISO639P3code=lang['ISO'],
                     Name=lang['NAME'])
@@ -37,11 +35,10 @@ class Dataset(BaseDataset):
                     if lang['NAME'] in r:  # ignore missing/empty entries
                         cogid = '%s-%s' % (slug(r['Meaning']), r['Set'])
                         for row in ds.add_lexemes(
-                            Language_ID=lang['NAME'],
+                            Language_ID=slug(lang['NAME']),
                             Parameter_ID=csid,
                             Value=r[lang['NAME']],
                             Source=lang['SOURCES'].split(';'),
-                            Segments=tokenizer('IPA', r[lang['NAME']]),
                             Cognacy=cogid
                         ):
                             ds.add_cognate(lexeme=row, Cognateset_ID=cogid)
