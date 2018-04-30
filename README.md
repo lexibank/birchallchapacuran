@@ -8,6 +8,8 @@ This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/
 
 Available online at http://pubman.mpdl.mpg.de/pubman/item/escidoc:2332314:2/component/escidoc:2332313/Appendix
 
+Conceptlist in Concepticon: [Birchall-2016-126](http://concepticon.clld.org/contributions/Birchall-2016-126)
+
 ## Statistics
 
 
@@ -15,8 +17,8 @@ Available online at http://pubman.mpdl.mpg.de/pubman/item/escidoc:2332314:2/comp
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-![LingPy: 97%](https://img.shields.io/badge/LingPy-97%25-green.svg "LingPy: 97%")
-![CLPA: 87%](https://img.shields.io/badge/CLPA-87%25-yellowgreen.svg "CLPA: 87%")
+![BIPA: 90%](https://img.shields.io/badge/BIPA-90%25-yellowgreen.svg "BIPA: 90%")
+![CLTS SoundClass: 87%](https://img.shields.io/badge/CLTS%20SoundClass-87%25-yellowgreen.svg "CLTS SoundClass: 87%")
 
 - **Varieties:** 10
 - **Concepts:** 125
@@ -25,5 +27,5 @@ Available online at http://pubman.mpdl.mpg.de/pubman/item/escidoc:2332314:2/comp
 - **Cognacy:** 939 cognates in 187 cognate sets
 - **Invalid lexemes:** 0
 - **Tokens:** 5,482
-- **Segments:** 39 (1 LingPy errors, 5 CLPA errors, 4 CLPA modified)
+- **Segments:** 39 (4 BIPA errors, 5 CTLS sound class errors, 35 CLTS modified)
 - **Inventory size (avg):** 22.20
