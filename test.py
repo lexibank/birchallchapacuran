@@ -37,3 +37,4 @@ def test_parameters(cldf_dataset, cldf_logger):
 def test_cognates(cldf_dataset, cldf_logger):
     cogsets = {c['Cognateset_ID'] for c in cldf_dataset['CognateTable']}
     assert len(cogsets) == 285
+
