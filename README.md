@@ -26,6 +26,6 @@ Conceptlist in Concepticon: [Birchall-2016-126](http://concepticon.clld.org/cont
 - **Synonymy:** 1.06
 - **Cognacy:** 939 cognates in 187 cognate sets
 - **Invalid lexemes:** 0
-- **Tokens:** 5,482
+- **Tokens:** 5,481
 - **Segments:** 39 (4 BIPA errors, 5 CTLS sound class errors, 35 CLTS modified)
 - **Inventory size (avg):** 22.20
