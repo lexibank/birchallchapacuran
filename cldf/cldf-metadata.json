@@ -2,7 +2,7 @@
     "@context": "http://www.w3.org/ns/csvw",
     "dc:bibliographicCitation": "Birchall J, Dunn M, & Greenhill SJ. 2016. A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family. International Journal of American Linguistics 82(3). 255\u2013284.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-    "dc:format": "http://concepticon.clld.org/contributions/Birchall-2016-126",
+    "dc:format": "http://concepticon.clld.org/contributions/Birchall-2016-125",
     "dc:identifier": "http://pubman.mpdl.mpg.de/pubman/item/escidoc:2332314:2/component/escidoc:2332313/Appendix",
     "dc:license": [
         "CC-BY-NC-4.0",
@@ -17,11 +17,11 @@
     },
     "notes": [
         {
-            "dc:title": "environment",
             "properties": {
-                "concepticon_version": "pyconcepticon-1.3-45-g85ba61d",
-                "glottolog_version": "v3.2-55-gef2031a"
-            }
+                "concepticon_version": "pyconcepticon-1.4.0-6-g413fdc7",
+                "glottolog_version": "pyglottolog-1.2.0-2-ge152243"
+            },
+            "dc:title": "environment"
         }
     ],
     "tables": [

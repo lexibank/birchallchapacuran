@@ -38,12 +38,12 @@
 | l | 4 | ✓ | ✓ |
 | pw | 4 | ? | ? |
 | � | 4 | ? | ? |
-| ë | 2 | ✓ | ? |
 | oo | 2 | ✓ | ✓ |
 | ts | 2 | ✓ | ✓ |
+| ë | 2 | ✓ | ? |
 | ø | 2 | ✓ | ✓ |
 | aa | 1 | ✓ | ✓ |
-| ã | 1 | ✓ | ✓ |
+| ã | 1 | ✓ | ✓ |
 
 (39 rows)
 
@@ -74,7 +74,7 @@
 | 421 | wari | 1205 | petehwet | p e t e <s> hw </s> e t |
 | 467 | more | 1371 | tukuʒ̟im | t u k u <s> ʒ̟ </s> i m |
 | 486 | kitemoka | 1257 | ipati-ko | i p a t i <s> � </s> k o |
-| 56 | tora | 1198 | asinëji | a s i n <s> ë </s> j i |
+| 56 | tora | 1198 | asinëji | a s i n <s> ë </s> j i |
 | 602 | more | 1407 | ʒ̟ak | <s> ʒ̟ </s> a k |
 | 71 | kitemoka | 1493 | mamai-omaitʃe | m a m a i <s> � </s> o m a i tʃ e |
 | 710 | more | 1441 | ʒ̟e | <s> ʒ̟ </s> e |
@@ -84,7 +84,7 @@
 | 813 | more | 1343 | mapwito | m a <s> pw </s> i t o |
 | 82 | wari | 1202 | hwaraʔ | <s> hw </s> a r a ʔ |
 | 867 | more | 671 | mimaʒ̟ | m i m a <s> ʒ̟ </s> |
-| 940 | tora | 156 | mëbn | m <s> ë </s> b n |
+| 940 | tora | 156 | mëbn | m <s> ë </s> b n |
 | 993 | more | 1342 | kawaʒ̟i | k a w a <s> ʒ̟ </s> i |
 
 (24 rows)
