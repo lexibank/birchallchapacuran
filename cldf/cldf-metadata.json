@@ -4,14 +4,12 @@
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:format": "http://concepticon.clld.org/contributions/Birchall-2016-125",
     "dc:identifier": "http://pubman.mpdl.mpg.de/pubman/item/escidoc:2332314:2/component/escidoc:2332313/Appendix",
-    "dc:license": [
-        "CC-BY-NC-4.0",
-        "Creative Commons Attribution Non Commercial 4.0",
-        "https://creativecommons.org/licenses/by-nc/4.0/"
-    ],
+    "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
     "dc:source": "sources.bib",
     "dc:title": "A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family",
+    "dcat:accessURL": "https://github.com/lexibank/birchallchapacuran",
     "rdf:ID": "birchallchapacuran",
+    "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
         "commentPrefix": null
     },
@@ -19,8 +17,8 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "pyglottolog-1.2.0-2-ge152243",
-                "concepticon_version": "pyconcepticon-1.4.0-6-g413fdc7"
+                "glottolog_version": "v3.3.2",
+                "concepticon_version": "pyconcepticon-1.4.0-10-g1d57531"
             }
         }
     ],
@@ -158,6 +156,10 @@
                     {
                         "datatype": "string",
                         "name": "Family"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Sources"
                     }
                 ],
                 "primaryKey": [
@@ -204,7 +206,7 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "datatype": "integer",
+                        "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "name": "ID"
                     },

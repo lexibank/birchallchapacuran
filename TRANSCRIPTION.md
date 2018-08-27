@@ -61,31 +61,31 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-|-----:|:-----------|----------:|:--------------|:----------------------------------|
-| 130 | wari | 2099 | hwijimaʔ | <s> hw </s> i j i m a ʔ |
-| 156 | tapakura | 1217 | tia-tia | t i a <s> � </s> t i a |
-| 172 | wari | 227 | hwam | <s> hw </s> a m |
-| 3 | more | 1209 | waʒ̟a | w a <s> ʒ̟ </s> a |
-| 319 | tapakura | 323 | momikum-kiru | m o m i k u m <s> � </s> k i r u |
-| 327 | more | 744 | ariʒ̟a | a r i <s> ʒ̟ </s> a |
-| 346 | wari | 1220 | kahwereɲ | k a <s> hw </s> e r e ɲ |
-| 363 | more | 1256 | upwik | u <s> pw </s> i k |
-| 394 | more | 1221 | uʒ̟ | u <s> ʒ̟ </s> |
-| 421 | wari | 1205 | petehwet | p e t e <s> hw </s> e t |
-| 467 | more | 1371 | tukuʒ̟im | t u k u <s> ʒ̟ </s> i m |
-| 486 | kitemoka | 1257 | ipati-ko | i p a t i <s> � </s> k o |
-| 56 | tora | 1198 | asinëji | a s i n <s> ë </s> j i |
-| 602 | more | 1407 | ʒ̟ak | <s> ʒ̟ </s> a k |
-| 71 | kitemoka | 1493 | mamai-omaitʃe | m a m a i <s> � </s> o m a i tʃ e |
-| 710 | more | 1441 | ʒ̟e | <s> ʒ̟ </s> e |
-| 735 | more | 1411 | ʒ̟ak | <s> ʒ̟ </s> a k |
-| 740 | more | 1416 | pwe | <s> pw </s> e |
-| 788 | more | 1456 | pwin | <s> pw </s> i n |
-| 813 | more | 1343 | mapwito | m a <s> pw </s> i t o |
-| 82 | wari | 1202 | hwaraʔ | <s> hw </s> a r a ʔ |
-| 867 | more | 671 | mimaʒ̟ | m i m a <s> ʒ̟ </s> |
-| 940 | tora | 156 | mëbn | m <s> ë </s> b n |
-| 993 | more | 1342 | kawaʒ̟i | k a w a <s> ʒ̟ </s> i |
+|:----------------|:-----------|----------:|:--------------|:----------------------------------|
+| kitemoka-1257-1 | kitemoka | 1257 | ipati-ko | i p a t i <s> � </s> k o |
+| kitemoka-1493-1 | kitemoka | 1493 | mamai-omaitʃe | m a m a i <s> � </s> o m a i tʃ e |
+| more-1209-1 | more | 1209 | waʒ̟a | w a <s> ʒ̟ </s> a |
+| more-1221-1 | more | 1221 | uʒ̟ | u <s> ʒ̟ </s> |
+| more-1256-1 | more | 1256 | upwik | u <s> pw </s> i k |
+| more-1342-1 | more | 1342 | kawaʒ̟i | k a w a <s> ʒ̟ </s> i |
+| more-1343-1 | more | 1343 | mapwito | m a <s> pw </s> i t o |
+| more-1371-1 | more | 1371 | tukuʒ̟im | t u k u <s> ʒ̟ </s> i m |
+| more-1407-2 | more | 1407 | ʒ̟ak | <s> ʒ̟ </s> a k |
+| more-1411-1 | more | 1411 | ʒ̟ak | <s> ʒ̟ </s> a k |
+| more-1416-1 | more | 1416 | pwe | <s> pw </s> e |
+| more-1441-1 | more | 1441 | ʒ̟e | <s> ʒ̟ </s> e |
+| more-1456-1 | more | 1456 | pwin | <s> pw </s> i n |
+| more-671-1 | more | 671 | mimaʒ̟ | m i m a <s> ʒ̟ </s> |
+| more-744-1 | more | 744 | ariʒ̟a | a r i <s> ʒ̟ </s> a |
+| tapakura-1217-1 | tapakura | 1217 | tia-tia | t i a <s> � </s> t i a |
+| tapakura-323-1 | tapakura | 323 | momikum-kiru | m o m i k u m <s> � </s> k i r u |
+| tora-1198-2 | tora | 1198 | asinëji | a s i n <s> ë </s> j i |
+| tora-156-1 | tora | 156 | mëbn | m <s> ë </s> b n |
+| wari-1202-1 | wari | 1202 | hwaraʔ | <s> hw </s> a r a ʔ |
+| wari-1205-1 | wari | 1205 | petehwet | p e t e <s> hw </s> e t |
+| wari-1220-1 | wari | 1220 | kahwereɲ | k a <s> hw </s> e r e ɲ |
+| wari-2099-1 | wari | 2099 | hwijimaʔ | <s> hw </s> i j i m a ʔ |
+| wari-227-1 | wari | 227 | hwam | <s> hw </s> a m |
 
 (24 rows)
 
