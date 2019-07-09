@@ -13,6 +13,7 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family",
+    "dcat:accessURL": "https://github.com/lexibank/birchallchapacuran",
     "rdf:ID": "birchallchapacuran",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
     "dialect": {
@@ -22,7 +23,7 @@
         {
             "dc:title": "environment",
             "properties": {
-                "glottolog_version": "pyglottolog-1.2.0-3-g0c317cdda7",
+                "glottolog_version": "v4.0",
                 "concepticon_version": "v2.0"
             }
         }
