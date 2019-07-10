@@ -8,7 +8,8 @@ This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/
 
 Available online at http://pubman.mpdl.mpg.de/pubman/item/escidoc:2332314:2/component/escidoc:2332313/Appendix
 
-Conceptlist in Concepticon: [Birchall-2016-125](http://concepticon.clld.org/contributions/Birchall-2016-125)
+Conceptlists in Concepticon:
+- [Birchall-2016-125](http://concepticon.clld.org/contributions/Birchall-2016-125)
 
 ## Statistics
 
@@ -17,15 +18,17 @@ Conceptlist in Concepticon: [Birchall-2016-125](http://concepticon.clld.org/cont
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-![BIPA: 90%](https://img.shields.io/badge/BIPA-90%25-yellowgreen.svg "BIPA: 90%")
-![CLTS SoundClass: 87%](https://img.shields.io/badge/CLTS%20SoundClass-87%25-yellowgreen.svg "CLTS SoundClass: 87%")
+![BIPA: 95%](https://img.shields.io/badge/BIPA-95%25-green.svg "BIPA: 95%")
+![CLTS SoundClass: 95%](https://img.shields.io/badge/CLTS%20SoundClass-95%25-green.svg "CLTS SoundClass: 95%")
 
 - **Varieties:** 10
 - **Concepts:** 125
 - **Lexemes:** 1,037
+- **Sources:** 13
 - **Synonymy:** 1.06
-- **Cognacy:** 939 cognates in 187 cognate sets
+- **Cognacy:** 1,037 cognates in 285 cognate sets (98 singletons)
+- **Cognate Diversity:** 0.18
 - **Invalid lexemes:** 0
 - **Tokens:** 5,481
-- **Segments:** 39 (4 BIPA errors, 5 CTLS sound class errors, 35 CLTS modified)
-- **Inventory size (avg):** 22.20
+- **Segments:** 38 (2 BIPA errors, 2 CTLS sound class errors, 36 CLTS modified)
+- **Inventory size (avg):** 22.00

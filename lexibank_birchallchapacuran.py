@@ -40,6 +40,7 @@ class Dataset(BaseDataset):
                         for row in ds.add_lexemes(
                             Language_ID=lang['ID'],
                             Parameter_ID=csid,
+                            Form=r[lang['Name']],
                             Value=r[lang['Name']],
                             Source=lang['Sources'].split(';'),
                             Cognacy=cogid
