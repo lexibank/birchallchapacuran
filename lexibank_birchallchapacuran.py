@@ -37,15 +37,15 @@ class Dataset(BaseDataset):
                 for lang in self.languages:
                     if lang['Name'] in r:  # ignore missing/empty entries
                         cogid = '%s-%s' % (slug(r['Meaning']), r['Set'])
-                        for row in ds.add_lexemes(
+                        row = ds.add_form(
                             Language_ID=lang['ID'],
                             Parameter_ID=csid,
                             Form=r[lang['Name']],
                             Value=r[lang['Name']],
                             Source=lang['Sources'].split(';'),
                             Cognacy=cogid
-                        ):
-                            ds.add_cognate(lexeme=row, Cognateset_ID=cogid)
+                        )
+                        ds.add_cognate(lexeme=row, Cognateset_ID=cogid)
 
     def read_csv(self, filename):
         """Lightweight wrapper to read data records, and tidy them gently"""
