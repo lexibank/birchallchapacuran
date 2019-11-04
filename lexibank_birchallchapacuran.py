@@ -1,17 +1,16 @@
 # coding: utf8
-from __future__ import unicode_literals, print_function, division
+from pathlib import Path
 
-from clldutils.misc import slug
 import attr
+from clldutils.misc import slug
 
-from clldutils.path import Path
-from pylexibank.dataset import Metadata
-from pylexibank.dataset import Dataset as BaseDataset, Language as BaseLanguage
-
+from pylexibank import Dataset as BaseDataset
+from pylexibank import Language as BaseLanguage
+from pylexibank import FormSpec
 
 @attr.s
 class Language(BaseLanguage):
-   Sources = attr.ib(default=None)
+   Source = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
@@ -19,36 +18,39 @@ class Dataset(BaseDataset):
     id = 'birchallchapacuran'
     language_class = Language
 
-    def cmd_download(self, **kw):
-        self.raw.xls2csv('chapacuran.xlsx')
+    form_spec = FormSpec(
+        missing_data=('?', '-', '', '?-')
+    )
+    
+    def cmd_download(self, args):
+        self.raw_dir.xls2csv('chapacuran.xlsx')
 
-    def cmd_install(self, **kw):
-        concept_map = {
-            x.english: (x.concepticon_id, x.concepticon_gloss)
-            for x in self.conceptlist.concepts.values()
-        }
+    def cmd_makecldf(self, args):
+        args.writer.add_sources()
         
-        with self.cldf as ds:
-            ds.add_sources(*self.raw.read_bib())
-            ds.add_languages()
-            for r in self.read_csv('chapacuran.Sheet1.csv'):
-                csid, csgloss = concept_map[r['Meaning']]
-                ds.add_concept(ID=csid, Name=r['Meaning'], Concepticon_ID=csid, Concepticon_Gloss=csgloss)
-                for lang in self.languages:
-                    if lang['Name'] in r:  # ignore missing/empty entries
-                        cogid = '%s-%s' % (slug(r['Meaning']), r['Set'])
-                        row = ds.add_form(
-                            Language_ID=lang['ID'],
-                            Parameter_ID=csid,
-                            Form=r[lang['Name']],
-                            Value=r[lang['Name']],
-                            Source=lang['Sources'].split(';'),
-                            Cognacy=cogid
-                        )
-                        ds.add_cognate(lexeme=row, Cognateset_ID=cogid)
-
-    def read_csv(self, filename):
-        """Lightweight wrapper to read data records, and tidy them gently"""
-        for record in self.raw.read_csv(filename, dicts=True):
-            yield {k.strip(): v.strip() for k, v in record.items()
-                   if v.strip() not in ['?', '', '-', '?-']}
+        sources = {s['ID']: s['Source'].split(';') for s in self.languages}
+        
+        languages = args.writer.add_languages(
+            lookup_factory=lambda l: l['Name']
+        )
+        
+        concepts = args.writer.add_concepts(
+            id_factory=lambda c: c.id.split('-')[-1]+ '_' + slug(c.english),
+            lookup_factory="Name"
+        )
+        
+        for row in self.raw_dir.read_csv('chapacuran.Sheet1.csv', dicts=True):
+            # remove trailing spaces in all cells
+            row = {r.strip(): k.strip() for (r, k) in row.items()}
+            concept = concepts[row['Meaning']]
+            cogid = '%s-%s' % (concept, row['Set'])
+            for lang in languages:
+                lex = args.writer.add_forms_from_value(
+                    Language_ID=languages[lang],
+                    Parameter_ID=concept,
+                    Value=row.get(lang),
+                    Source=sources[languages[lang]],
+                    Cognacy=cogid
+                )
+                for l in lex:
+                    args.writer.add_cognate(lexeme=l, Cognateset_ID=cogid)

@@ -60,16 +60,16 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-|:------------|:-----------|----------:|:---------|:------------------------|
-| more-1256-1 | more | 1256 | upwik | u <s> pw </s> i k |
-| more-1343-1 | more | 1343 | mapwito | m a <s> pw </s> i t o |
-| more-1416-1 | more | 1416 | pwe | <s> pw </s> e |
-| more-1456-1 | more | 1456 | pwin | <s> pw </s> i n |
-| wari-1202-1 | wari | 1202 | hwaraʔ | <s> hw </s> a r a ʔ |
-| wari-1205-1 | wari | 1205 | petehwet | p e t e <s> hw </s> e t |
-| wari-1220-1 | wari | 1220 | kahwereɲ | k a <s> hw </s> e r e ɲ |
-| wari-2099-1 | wari | 2099 | hwijimaʔ | <s> hw </s> i j i m a ʔ |
-| wari-227-1 | wari | 227 | hwam | <s> hw </s> a m |
+|:-----------------|:-----------|:----------|:---------|:------------------------|
+| more-45_head-1 | more | 45_head | upwik | u <s> pw </s> i k |
+| more-88_sit-1 | more | 88_sit | pwe | <s> pw </s> e |
+| more-95_throw-1 | more | 95_throw | pwin | <s> pw </s> i n |
+| more-99_sun-1 | more | 99_sun | mapwito | m a <s> pw </s> i t o |
+| wari-12_big-1 | wari | 12_big | hwaraʔ | <s> hw </s> a r a ʔ |
+| wari-17_child-1 | wari | 17_child | hwijimaʔ | <s> hw </s> i j i m a ʔ |
+| wari-21_fish-1 | wari | 21_fish | hwam | <s> hw </s> a m |
+| wari-43_tail-1 | wari | 43_tail | kahwereɲ | k a <s> hw </s> e r e ɲ |
+| wari-51_tongue-1 | wari | 51_tongue | petehwet | p e t e <s> hw </s> e t |
 
 (9 rows)
 

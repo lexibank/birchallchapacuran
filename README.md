@@ -8,9 +8,9 @@ This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/
 
 Available online at http://pubman.mpdl.mpg.de/pubman/item/escidoc:2332314:2/component/escidoc:2332313/Appendix
 
-Conceptlists in Concepticon:
-- [Birchall-2016-125](http://concepticon.clld.org/contributions/Birchall-2016-125)
 
+Conceptlists in Concepticon:
+- [Birchall-2016-125](https://concepticon.clld.org/contributions/Birchall-2016-125)
 ## Statistics
 
 

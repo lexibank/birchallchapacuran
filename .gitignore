@@ -99,3 +99,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# CLDF/Lexibank stuff
+cldf/.transcription-report.json
