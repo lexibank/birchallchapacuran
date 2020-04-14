@@ -1,4 +1,4 @@
-# A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family
+# CLDF dataset derived from Birchall et al.'s "A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family" from 2016.
 
 Cite the source dataset as
 
