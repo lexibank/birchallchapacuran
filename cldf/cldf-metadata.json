@@ -11,14 +11,14 @@
     "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "CLDF dataset derived from Birchall et al.'s \"A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family\" from 2016.",
+    "dc:title": "CLDF dataset derived from Birchall et al.'s \"A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family\" from 2016",
     "dcat:accessURL": "https://github.com/lexibank/birchallchapacuran",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/birchallchapacuran",
-            "dc:created": "b4fdd2d"
+            "dc:created": "4b7ed13"
         },
         {
             "rdf:type": "prov:Entity",
