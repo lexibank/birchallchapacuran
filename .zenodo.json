@@ -30,6 +30,6 @@
     "upload_type": "dataset",
     "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Birchall J, Dunn M, &amp; Greenhill SJ. 2016. A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family. International Journal of American Linguistics 82(3). 255\u2013284.</p>\n</blockquote>",
     "license": {
-        "id": "CC-BY-NC-4.0"
+        "id": "CC-BY-4.0"
     }
 }

@@ -4,7 +4,7 @@ Cite the source dataset as
 
 > Birchall J, Dunn M, & Greenhill SJ. 2016. A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family. International Journal of American Linguistics 82(3). 255–284.
 
-This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/ license
+This dataset is licensed under a CC-BY-4.0 license
 
 Available online at http://pubman.mpdl.mpg.de/pubman/item/escidoc:2332314:2/component/escidoc:2332313/Appendix
 

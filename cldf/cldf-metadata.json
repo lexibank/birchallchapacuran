@@ -8,7 +8,7 @@
     ],
     "dc:identifier": "http://pubman.mpdl.mpg.de/pubman/item/escidoc:2332314:2/component/escidoc:2332313/Appendix",
     "dc:isVersionOf": null,
-    "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Birchall et al.'s \"A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family\" from 2016",
@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/birchallchapacuran",
-            "dc:created": "f37b47c"
+            "dc:created": "957f703"
         },
         {
             "rdf:type": "prov:Entity",
