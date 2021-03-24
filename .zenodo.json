@@ -1,0 +1,35 @@
+{
+    "title": "CLDF dataset derived from Birchall et al.'s \"A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family\" from 2016",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Joshua Birchall"
+        },
+        {
+            "name": "Michael Dunn"
+        },
+        {
+            "name": "Simon J. Greenhill"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Tiago Tresoldi",
+            "type": "Other"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Birchall J, Dunn M, &amp; Greenhill SJ. 2016. A Combined Comparative and Phylogenetic Analysis of the Chapacuran Language Family. International Journal of American Linguistics 82(3). 255\u2013284.</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-NC-4.0"
+    }
+}
