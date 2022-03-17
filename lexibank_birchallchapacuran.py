@@ -30,12 +30,20 @@ class Dataset(pylexibank.Dataset):
         concepts = args.writer.add_concepts(
             id_factory=lambda c: c.id.split("-")[-1] + "_" + slug(c.english), lookup_factory="Name"
         )
-
+        cogs = {}
+        cogidx = 1
         for row in self.raw_dir.read_csv("chapacuran.Sheet1.csv", dicts=True):
             # remove trailing spaces in all cells
             row = {r.strip(): k.strip() for (r, k) in row.items()}
             concept = concepts[row["Meaning"]]
-            cogid = "%s-%s" % (concept, row["Set"])
+            cognate = "%s-%s" % (concept, row["Set"])
+            if cognate in cogs:
+                cogid = cogs[cognate]
+            else:
+                cogs[cognate] = cogidx
+                cogidx += 1
+                cogid = cogs[cognate]
+                
             for lang in languages:
                 lex = args.writer.add_forms_from_value(
                     Language_ID=languages[lang],
