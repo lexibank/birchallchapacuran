@@ -18,6 +18,10 @@
     ],
     "contributors": [
         {
+            "name": "Simon J. Greenhill",
+            "type": "Editor"
+        },
+        {
             "name": "Tiago Tresoldi",
             "type": "Other"
         }
