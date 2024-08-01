@@ -47,9 +47,8 @@ Name               | GitHub user     | Description                          | Ro
 ---                | ---             | ---                                  | ---
 Joshua Birchall | | data collection | Author
 Michael Dunn | | data collection | Author
-Simon J. Greenhill | @SimonGreenhill | patron                               | Author
+Simon J. Greenhill | @SimonGreenhill | patron                               | Author, Editor
 Tiago Tresoldi     | @tresoldi       | profile                              | Other
-
 
 
 
